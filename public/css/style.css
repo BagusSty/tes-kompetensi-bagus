@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --white: #DBC7F0;
+    --primary: #005B00;
+    --secondary: #6E9178;
+}
+
+body {
+    background: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.card {
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.card-body {
+    border: none;
+    border-radius: 30px;
+}
+
+.img-logo {
+    text-align: center;
+}
+
+.text-title h1 {
+    font-size: 50px;
+}
+
+.text-title .title {
+    font-size: 62px;
+    font-weight: bold;
+    font-family: 'Lobster', sans-serif;
+}
+
+.card-body .row .col-md-6 {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    align-self: center;
+}
+
+.line-break {
+    margin: 50px;
+    opacity: 0;
+}
+
+.description,
+.product {
+    margin: 20px 40px;
+}
+
+.description .row .title,
+.product .statistic-title {
+    text-align: center;
+}
+
+.description .row .title h2,
+.product .statistic-title h2 {
+    font-weight: bold;
+}
+
+.product .row {
+    margin: 40px 0;
+}
+
+.product .row .col-md-4 h6 {
+    font-size: 20px;
+}
+
+.btn-detail {
+    background-color: var(--secondary);
+}
+
+.btn-detail:hover {
+    background-color: var(--white);
+
+}
+
+.btn-submit {
+    background-color: var(--secondary);
+}
+
+.btn-submit:hover {
+    background-color: var(--white);
+    border: 1px solid var(--secondary);
+
+}
+
+.btn-detail:hover a {
+    color: var(--secondary);
+}
+
+.btn-detail a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.description .row .desc {
+    width: 70%;
+    text-align: justify;
+}
+
+.sub-title {
+    padding: 20px;
+    text-align: justify;
+}
+
+.footer {
+    margin: -20px 0;
+    background-color: var(--secondary);
+}
+
+.footer .row {
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-title {
+    color: #E6F4F1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .row .col-md-3 img {
+    width: 24px;
+}
+
+
+.icon {
+    fill: #E6F4F1;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.footer .copyright {
+    color: #E6F4F1;
+}
